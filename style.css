@@ -67,8 +67,9 @@ input{
     }
     .image img{
         width:400px;
+        padding:0;
     }
     .content::after{
-        left:330px;
+        left:331px;
     }
 }
