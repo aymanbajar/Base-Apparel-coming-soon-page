@@ -60,9 +60,15 @@ input{
     .container{
         width: 100%;
         display: flex;
-        
-
         flex-direction: column-reverse;
     }
-    
+    .image{
+        width:400px;
+    }
+    .image img{
+        width:400px;
+    }
+    .content::after{
+        left:330px;
+    }
 }
